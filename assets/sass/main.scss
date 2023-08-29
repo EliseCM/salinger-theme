@@ -129,7 +129,7 @@ aside {
     }
   }
   .post-text {
-p{    text-align: justify;
+p{    text-align: left;
 }    hyphens: auto;
     max-width: $content-width;
 
@@ -147,7 +147,7 @@ blockquote {
   
   font-family: $quote-font;
   font-size: 150%;
-  padding: 10px;
+  padding: 5px;
   width: fit-content;
 
 } 
@@ -261,7 +261,7 @@ img {
   max-width: $content-width;
   font-family: $secondary-font;
   p {
-    text-align: justify;
+    text-align: left;
     margin-bottom: 0px;
     margin-top: 10px;
   }
@@ -361,7 +361,7 @@ header {
     .nav-item {
       float: right;
       padding: 10px;
-      text-align: center;
+      text-align: left;
       display: block;
       align-self: center;
       border-radius: $radius;
